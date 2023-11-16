@@ -1,0 +1,54 @@
+.blog-section {
+    background-color: #e2b112;
+    margin: 15px 0; /* Margen en la parte superior e inferior para crear espacio entre las secciones */
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    cursor: pointer;
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flex a columna */
+    max-height: 100px;
+    margin-left: 10px;
+    max-width: 1300px; /* Altura máxima inicial */
+    transition: max-height 0.3s; /* Transición de la altura máxima */
+    border-radius: 10px;
+}
+.blog-section p{
+    font-weight: normal;
+}
+
+.blog-section:hover {
+    max-height: 1000px; /* Altura máxima al pasar el mouse (ajusta según tus necesidades) */
+}
+
+.content {
+    display: flex;
+    flex-direction: row; /* Cambia la dirección de flex a fila para alinear el texto y la imagen lado a lado */
+}
+
+.text-content {
+    flex: 1;
+}
+
+.image-content {
+    flex: 1;
+    padding-left: 100px; /* Espacio entre el texto y la imagen */
+}
+
+/* Estilo de las imágenes */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 450px;
+    border-radius: 20px;
+    
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}

@@ -1,0 +1,109 @@
+/* Estilo para el encabezado */
+.introduccion {
+    background-color: #e2b112;;
+    padding: 40px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    border-radius: 20px;
+}
+.introduccion ul li{
+    list-style: none;
+    padding: 0;
+}
+
+.introduccion h1 {
+    font-size: 1.8rem;
+    margin: 25px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+    
+.introduccion p {
+    font-size: 1.2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    
+.imagen-introduccion {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.imagen-cambiable {
+    margin: 0 10px;
+    transition: transform 0.2s; /* Agrega una transición para el cambio de imagen */
+}
+
+.imagen-cambiable:hover {
+    transform: scale(1.1); /* Hace que la imagen se agrande al pasar el mouse */
+}
+header {
+    text-align: center;
+    padding: 30px 0;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 10px;
+}
+
+/* Estilo para la sección de formulario */
+.formulario {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #e2b112;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+.formulario h2 {
+    font-size: 1.8rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 20px 0;
+}
+
+.formulario label {
+    display: block;
+    margin-top: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10px;
+    color: #333;
+}
+
+.formulario input, .formulario textarea {
+    width: 100%;
+    padding: 20px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.formulario button {
+    background-color: #333;
+    color: #e2b112;
+    padding: 20px 20px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    line-height: 0;
+    width:10px
+}
+.video {
+    background-color: #e2b112;
+    padding: 20px;
+    text-align: center;
+    color: #2e4572;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 50%;
+    height: 450px;
+    border-radius: 10px;
+    margin-left: 330px;
+}
+
+.video h2 {
+    font-size: 1.8rem;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
